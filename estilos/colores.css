@@ -1,7 +1,12 @@
-.container{
-    background-color: #f2f2f2;
-    color:black;
-
+.container-fluid{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+footer{
+    height: 100%;
+    color:white;
+    background-color: black;
 }
 .carousel-item{
     width:auto; 
@@ -10,4 +15,12 @@
 #carouselExampleIndicators{
     margin:auto;
     width: 75%;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color:white;
+    text-align: left;
 }
