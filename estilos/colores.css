@@ -1,27 +1,33 @@
-.container-fluid{    
-    color:white;
-    text-align: center;
-    
-}
+
 footer{
     height: 100%;
     color:white;
     background-color: black;
     margin: 2em 0em 0em 0em;
 }
-.carousel-item{
-    width:auto; 
-    height:50%;
+footer a{
+	color:white;
+	
 }
+footer a:hover{
+	color:white;
+	
+}
+
 #carouselExampleIndicators{
     margin:auto;
-    width: 50%;
+    width: 80%;
 }
 
 li{
     list-style: none;
 }
 a{
-    color:white;
+    
     text-align: left;
+}
+#precio, #nombreProducto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color:black;
 }

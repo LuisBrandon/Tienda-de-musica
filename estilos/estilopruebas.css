@@ -1,6 +1,4 @@
-.col_white_amrc {
-	color: #FFF;
-}
+
 
 footer {
 	width: 100%;
@@ -114,8 +112,3 @@ footer p {
 	border-radius: 50%;
 }
 
-.social_footer_ul li i {
-	width: 20px;
-	height: 20px;
-	text-align: center;
-}

@@ -9,7 +9,7 @@ body {
 
 header {
   overflow: hidden;
-  background-color: #19B7FF;
+  background-color: rgb(37, 146, 197);
 }
 header a {
   float: left;
@@ -21,7 +21,8 @@ header a {
   font-size: 17px;
 }
 header a:hover {
-  background-color: #ddd;
+  background-color: none;
+  text-decoration: none;
   color: black;
 }
 
@@ -58,12 +59,18 @@ header .search-container button {
   height: 40px;
 }
 
+#categorias a{
+  margin-left: 1em;
+  margin-right: 0.2em;
+  
+}
+
 
 @media screen and (max-width: 600px) {
   header .search-container {
     float: none;
   }
-  header a, header input[type=text], .topnav .search-container button {
+  header a, header input[type=text], .header .search-container button {
     float: none;
     display: block;
     text-align: left;
@@ -75,3 +82,4 @@ header .search-container button {
     border: 1px solid #ccc;
   }
 }
+
